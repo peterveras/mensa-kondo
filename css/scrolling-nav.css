@@ -9,7 +9,7 @@
   background-color: white;
 }
 .navbar-dark .navbar-toggler-icon {
-  background-image: url(/img/hamburger.png);
+  background-image: url(../img/hamburger.png);
 }
 .nav-link :hover {
   text-decoration: underline;
