@@ -1,0 +1,51 @@
+.body {
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: ;
+  color: #232325;
+}
+
+h2 {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-size: ;
+  color: #232325;
+}
+h3 {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-size: ;
+  color: #232325;
+}
+
+p {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-size: ;
+  color: #232325;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+/*Links Styling */
+
+#black-link {
+  color: #232325;
+  text-decoration: underline;
+}
+
+#white-link {
+  color: white;
+  text-decoration: underline;
+}
+
+#white-link-no-underline {
+  color: white;
+}

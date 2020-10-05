@@ -1,0 +1,119 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/templates/scrolling-nav)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+/* Summary */
+
+/*
+1. Nav Bar
+2. Buttons
+
+
+*/
+
+/* 1. Nav Bar */
+.navbar {
+  background-color: white;
+}
+.navbar-dark .navbar-toggler-icon {
+  background-image: url(../img/hamburger.png);
+}
+.nav-link :hover {
+  text-decoration: underline;
+}
+
+/* Nav Bar End */
+
+/* 2. Buttons */
+.site-btn {
+  background: none;
+  border: solid 2px #161616;
+  padding: 10px 41px;
+  outline: 0;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Space Mono", monospace;
+  cursor: pointer;
+  min-width: 160px;
+}
+
+.site-btn:hover {
+  background: black;
+  border: solid 2px #161616;
+  padding: 10px 41px;
+  outline: 0;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Space Mono", monospace;
+  cursor: pointer;
+  min-width: 160px;
+  color: white;
+}
+/* Buttons  End */
+
+.body {
+  background-color: #89ff14;
+}
+
+.hero-img {
+  padding: 156px 0 100px;
+}
+
+.product_box {
+  margin-bottom: 30px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #232325;
+}
+
+.product_img {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+  object-fit: fill;
+}
+
+.round-corners {
+  border-radius: 4px 4px 4px 4px;
+}
+
+/* Buttons */
+.site-btn {
+  background: none;
+  border: solid 2px #161616;
+  padding: 10px 41px;
+  outline: 0;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Space Mono", monospace;
+  cursor: pointer;
+  min-width: 160px;
+}
+
+.site-btn:hover {
+  background: black;
+  border: solid 2px #161616;
+  padding: 10px 41px;
+  outline: 0;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Space Mono", monospace;
+  cursor: pointer;
+  min-width: 160px;
+  color: white;
+}
+/* Buttons  End */
+
+/* Backgrounds */
+
+.bg-darker {
+  background-color: #80ec15;
+}
