@@ -36,16 +36,27 @@ ul {
 
 /*Links Styling */
 
-#black-link {
+.black-link {
   color: #232325;
   text-decoration: underline;
 }
 
-#white-link {
+.black-link :hover {
+  opacity: 50%;
+}
+
+.white-link {
   color: white;
   text-decoration: underline;
 }
 
-#white-link-no-underline {
+.white-link-no-underline {
   color: white;
+}
+.black-link-no-underline {
+  color: #232325;
+}
+
+.black-link-no-underline :hover {
+  opacity: 100%;
 }

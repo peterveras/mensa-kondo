@@ -9,6 +9,7 @@
 /*
 1. Nav Bar
 2. Buttons
+3. Tabs
 
 
 */
@@ -54,6 +55,16 @@
   color: white;
 }
 /* Buttons  End */
+
+/* Tab */
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #232325;
+}
+
+/* Tabs End */
 
 .body {
   background-color: #89ff14;
