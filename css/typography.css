@@ -1,6 +1,7 @@
 .body {
   font-family: "Space Mono", monospace;
   font-size: 16px;
+  line-height: 20px;
   text-align: left;
 }
 
@@ -64,4 +65,8 @@ ul {
 
 .black-link-no-underline :hover {
   opacity: 100%;
+}
+
+.text-right {
+  text-align: right;
 }

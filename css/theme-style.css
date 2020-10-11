@@ -6,25 +6,46 @@
 
 /* Summary */
 
-/*
-1. Nav Bar
+/* =====================
+1. Navigation
+    - Nav Icon
+    - left arrow Icon
+    - right arrow Icon
 2. Buttons
 3. Tabs
-*/
+4.Modal
 
-/* 1. Nav Bar */
+
+===================== */
+/* 1. Navigation */
+
+/* Nav bar */
 .navbar {
   background-color: white;
 }
 .navbar-dark .navbar-toggler-icon {
-  background-image: url(../img/hamburger.png);
+  background-image: url(../img/icons/hamburger.png);
 }
 .nav-link :hover {
   text-decoration: underline;
   color: #232325;
 }
 
-/* Nav Bar End */
+/* Left Arrow Icon */
+
+.carousel-control-prev-icon {
+  background-image: url(../img/icons/left-chevron.png);
+}
+/* Right Arrow Icon */
+.carousel-control-next-icon {
+  background-image: url(../img/icons/right-chevron.png);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 30px;
+  height: 30px;
+}
 
 /* Links */
 
@@ -215,7 +236,7 @@ a:hover {
 }
 
 .card:hover {
-  box-shadow: rgba(11, 12, 13, 0.12) 0px 8px 16px 0px;
+  box-shadow: 15px 15px 0px #000000;
   background-color: rgb(255, 255, 255);
   transform: translateY(-8px);
   border-color: transparent;
@@ -240,4 +261,34 @@ a:hover {
 
 section {
   padding: 30px;
+}
+
+.hero-img-1 {
+  background-image: url("../img/works/work-3/Green-Turtle.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  height: 700px;
+}
+
+/* Modal */
+
+.modal-content {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: none;
+  background-clip: padding-box;
+  border: none;
+  border-radius: 4px;
+  outline: 0;
+}
+
+.modal-body {
+  padding: 0;
 }
