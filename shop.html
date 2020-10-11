@@ -20,6 +20,62 @@
     <link href="css/typography.css" rel="stylesheet">
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <style id="smooth-scrollbar-style">
+        [data-scrollbar] {
+            display: block;
+            position: relative;
+        }
+
+        .scroll-content {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+
+        .scrollbar-track {
+            position: absolute;
+            opacity: 0;
+            z-index: 1;
+            background: rgba(222, 222, 222, .75);
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-transition: opacity 0.5s 0.5s ease-out;
+            transition: opacity 0.5s 0.5s ease-out;
+        }
+
+        .scrollbar-track.show,
+        .scrollbar-track:hover {
+            opacity: 1;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s;
+        }
+
+        .scrollbar-track-x {
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+        }
+
+        .scrollbar-track-y {
+            top: 0;
+            right: 0;
+            width: 8px;
+            height: 100%;
+        }
+
+        .scrollbar-thumb {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 8px;
+            height: 8px;
+            background: rgba(0, 0, 0, .5);
+            border-radius: 4px;
+        }
+    </style>
+
 </head>
 
 <body id="page-top" class="padding_30_sides body">
@@ -143,44 +199,43 @@
                     </div>
                 </div>
             </div>
-            Bottom Half -->
-            <!-- 3 columns of Items End -->
-            <div class="container project-detail padbot_60">
-                <div class="row lightbox-gallery offset-lg-1">
-                    <!-- project-detail Two Columns | Start -->
-                    <div class="col-lg-5 padtop_30">
-                        <img class="product_img round-corners" src="img/shop/teeth-hat.jpg" alt="Hat with teeth">
+3 columns of Items End -->
+            <!-- Horizontal Card
+            <div class="container bottom_60 round-corners">
+                <div class="row bg-white">
+                   
+                    <div class="col-lg-5 no-padding-left-and-right">
+                        <img class="product_img round-corners-right" src="img/shop/teeth-hat.jpg" alt="Hat with teeth">
                     </div>
-                    <div class="col-lg-5">
-                        <h2 class="title padding_30">Hat with teeth</h2>
+                    <div class="col-lg-5 padding_30 padding_30_left">
+                        <h2 class="title">Hat with teeth</h2>
                         <div class="product_price">
                             <span class="price">$45.00</span>
                         </div>
-                        <div class="pr_desc">
+                        <div class="">
                             <p>Hand-painted with acrylic.</p>
 
                             <a href="#" target="_blank" link>
-                                <button class="site-btn" data-tilt> Buy Now
+                                <button class="site-primary-btn" data-tilt> Buy Now
                                     <i class="icon ion-md-arrow-down"></i>
                                 </button>
                             </a>
-                            <div class="padding_60">
+                            <div class="">
                                 <a href="#"><i class="fas fa-arrow-left" aria-hidden="true"></i> </a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Items End -->
-            <!-- Items -->
-            <div class="container project-detail padbot_60">
-                <div class="row lightbox-gallery offset-lg-1">
-                    <!-- project-detail Two Columns | Start -->
-                    <div class="col-lg-5 padtop_30">
-                        <img class="product_img round-corners" src="img/shop/Eyes-at-the-bottom.jpg" alt="product_img1">
+
+
+                <div class="row bg-white top_60">
+                    
+                    <div class="col-lg-5 no-padding-left-and-right">
+                        <img class="product_img round-corners-right" src="img/shop/Eyes-at-the-bottom.jpg"
+                            alt="product_img1">
                     </div>
-                    <div class="col-lg-5">
-                        <h2 class="title padding_30">Untitled-12</h2>
+                    <div class="col-lg-5 padding_30 padding_30_left padding_30_right">
+                        <h2 class="title">Untitled-12</h2>
                         <div class="product_price">
                             <span class="price">$700.00</span>
                         </div>
@@ -188,22 +243,74 @@
                             <p>Print on arcchival paper, 22&frac12; by 22&frac12; inches.</p>
 
                             <a href="#" target="_blank" link>
-                                <button class="site-btn" data-tilt> Buy Now
+                                <button class="site-primary-btn" data-tilt> Buy Now
                                     <i class="icon ion-md-arrow-down"></i>
                                 </button>
                             </a>
-                            <div class="padding_60">
+                            <div class="">
                                 <a href="#"><i class="fas fa-arrow-left" aria-hidden="true"></i> </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Items End -->
+             Horizontal Card  End  -->
+
+            <div class="container">
+
+                <div class="card__grid row" id="projects__archive">
 
 
 
-            <!-- Bottom half End-->
+
+                    <div class="col-12 col-lg-6">
+                        <div class="card__wrapper card__grid--offset grid__item--first aos-init aos-animate"
+                            data-aos="fade-up" data-aos-delay="400">
+                            <a href="/projects/breen/">
+                                <div class="card">
+                                    <div class="product_img wrapper">
+                                        <img class="product_img round-corners-top lazyload"
+                                            data-src="https://d33wubrfki0l68.cloudfront.net/b8855a773c89749e7aab62989b8dbc0101cee17c/a3f24/assets/images/project-breen.jpg"
+                                            alt="Breen"
+                                            src="https://d33wubrfki0l68.cloudfront.net/b8855a773c89749e7aab62989b8dbc0101cee17c/a3f24/assets/images/project-breen.jpg"
+                                            data-loaded="true">
+                                    </div>
+                                    <div class="card__info">
+                                        <h3 class="card__title">Breen</h3>
+                                        <p class="card__detail">An immersive hotel, rooted in nature, on the edge of one
+                                            of
+                                            Norway’s most awe inspiring fjords.</p>
+                                        <!-- <a class="card__action" href="/projects/breen/">View project ></a> -->
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-12 col-lg-6">
+                        <div class="" data-aos="fade-up" data-aos-delay="400">
+
+                            <div class="card-no-hover">
+                                <div class="product_img_wrapper">
+                                    <img class="product_img" alt="The Litvinjov Academy"
+                                        src="img/shop/teeth-hat.jpg">
+                                </div>
+                                <div class="card__info">
+                                    <h3 class="">The Litvinjov Academy</h3>
+                                    <p class="">Renowned for its modern and rigorous approach to ballet,
+                                        this academy nurtures exceptional talent.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
     </section>
 

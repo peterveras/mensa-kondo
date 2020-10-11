@@ -10,8 +10,6 @@
 1. Nav Bar
 2. Buttons
 3. Tabs
-
-
 */
 
 /* 1. Nav Bar */
@@ -23,9 +21,25 @@
 }
 .nav-link :hover {
   text-decoration: underline;
+  color: #232325;
 }
 
 /* Nav Bar End */
+
+/* Links */
+
+a:hover {
+  color: #89ff14;
+}
+
+.card__action {
+  color: #161616;
+  font-weight: 700;
+}
+.card__action:hover {
+  color: #161616;
+  font-weight: 700;
+}
 
 /* 2. Buttons */
 .site-btn {
@@ -58,10 +72,16 @@
 
 /* Tab */
 
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #232325;
+.nav-link {
+  color: #232325;
+}
+
+.nav-pills {
+  background: black;
+
+  border-radius: 4px;
+
+  color: white;
 }
 
 /* Tabs End */
@@ -90,12 +110,62 @@
   object-fit: fill;
 }
 
+.product_img_horizontal {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+  object-fit: fill;
+  padding-left: 0px;
+}
+
 .round-corners {
   border-radius: 4px 4px 4px 4px;
 }
 
+.round-corners-top {
+  border-radius: 4px 4px 0px 0px;
+}
+
+.round-corners-bottom {
+  border-radius: 0px 0px 4px 4px;
+}
+
+.round-corners-right {
+  border-radius: 4px 0px 0px 4px;
+}
+
 /* Buttons */
-.site-btn {
+.site-primary-btn {
+  background: black;
+  border: solid 2px #161616;
+  padding: 10px 41px;
+  outline: 0;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Space Mono", monospace;
+  cursor: pointer;
+  min-width: 160px;
+  color: white;
+}
+
+.site-primary-btn:hover {
+  background: none;
+  border: solid 2px #161616;
+  padding: 10px 41px;
+  outline: 0;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Space Mono", monospace;
+  cursor: pointer;
+  min-width: 160px;
+  color: black;
+}
+
+.site-secondary-btn {
   background: none;
   border: solid 2px #161616;
   padding: 10px 41px;
@@ -108,7 +178,7 @@
   min-width: 160px;
 }
 
-.site-btn:hover {
+.site-secondary-btn:hover {
   background: black;
   border: solid 2px #161616;
   padding: 10px 41px;
@@ -127,4 +197,47 @@
 
 .bg-darker {
   background-color: #80ec15;
+}
+
+/* Card */
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffff;
+  background-clip: border-box;
+  border: 0 solid rgba(0, 0, 0, 0.125);
+  border-radius: 4px;
+  margin-bottom: 60px;
+}
+
+.card:hover {
+  box-shadow: rgba(11, 12, 13, 0.12) 0px 8px 16px 0px;
+  background-color: rgb(255, 255, 255);
+  transform: translateY(-8px);
+  border-color: transparent;
+}
+
+.card__info {
+  padding: 20px;
+}
+
+.card-no-hover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffff;
+  background-clip: border-box;
+  border: 0 solid rgba(0, 0, 0, 0.125);
+  border-radius: 4px;
+  margin-bottom: 60px;
+}
+
+section {
+  padding: 30px;
 }

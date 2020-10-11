@@ -2,6 +2,10 @@
   padding: 40px;
 }
 
+.portrait_padding {
+  padding: 20px;
+}
+
 .top_15 {
   margin-top: 15px;
 }
@@ -40,6 +44,15 @@
 
 .padding_30_left {
   padding-left: 30px;
+}
+
+.padding_30_right {
+  padding-right: 30px;
+}
+
+.no-padding-left-and-right {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .padding_60_right_side {
@@ -129,8 +142,4 @@
 }
 .padtop_120 {
   padding-top: 120px;
-}
-
-.top_margin {
-  margin-top: 90px;
 }

@@ -20,6 +20,61 @@
   <link href="css/typography.css" rel="stylesheet">
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+  <style id="smooth-scrollbar-style">
+    [data-scrollbar] {
+      display: block;
+      position: relative;
+    }
+
+    .scroll-content {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+
+    .scrollbar-track {
+      position: absolute;
+      opacity: 0;
+      z-index: 1;
+      background: rgba(222, 222, 222, .75);
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-transition: opacity 0.5s 0.5s ease-out;
+      transition: opacity 0.5s 0.5s ease-out;
+    }
+
+    .scrollbar-track.show,
+    .scrollbar-track:hover {
+      opacity: 1;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s;
+    }
+
+    .scrollbar-track-x {
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 8px;
+    }
+
+    .scrollbar-track-y {
+      top: 0;
+      right: 0;
+      width: 8px;
+      height: 100%;
+    }
+
+    .scrollbar-thumb {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 8px;
+      height: 8px;
+      background: rgba(0, 0, 0, .5);
+      border-radius: 4px;
+    }
+  </style>
 </head>
 
 <body id="page-top" class="padding_30_sides body">
@@ -62,7 +117,8 @@
     <div class="container">
       <div class="row justify-content-start">
         <div class="col-4 padbot_30">
-          <img class="product_img round-corners" src="img/Works/off-the-metro.jpg" alt="product_img1">
+          <img class="product_img round-corners" src="img/Works/thrice-made-8-8-8-By-Mensa-Kondo.jpg"
+            alt="product_img1">
         </div>
         <div class="col-8 padbot_30">
           <img class="product_img round-corners" src="img/Works/Observations-By-Mensa-Kondo.jpg" alt="product_img1">
@@ -106,13 +162,12 @@
   <!-- Works End-->
   <!-- Bio -->
   <section id="bio" class="section_padding padding_90">
-    <div class="container">
+    <div class="container bg-white round-corners portrait_padding">
       <div class="row">
-        <div class="col-lg-8 mx-auto padbot_30">
-          <img class="product_img round-corners" src="img/Works/Portrait-Bright-t-shirt.jpg"
-            alt="Portrait of Mensa Kondo">
+        <div class="col-lg-6 mx-auto">
+          <img class="product_img round-corners" src="img/Works/off-the-metro.jpg" alt="Portrait of Mensa Kondo">
         </div>
-        <div class="col-lg-4 mx-auto">
+        <div class="col-lg-6 mx-auto padtop_60">
           <h2>Bio</h2>
 
           <p class="padbot_30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore,

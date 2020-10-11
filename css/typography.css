@@ -1,6 +1,7 @@
 .body {
   font-family: "Space Mono", monospace;
   font-size: 16px;
+  text-align: left;
 }
 
 h1 {
@@ -8,6 +9,7 @@ h1 {
   font-weight: 700;
   font-size: ;
   color: #232325;
+  text-align: left;
 }
 
 h2 {
@@ -15,12 +17,14 @@ h2 {
   font-weight: 400;
   font-size: ;
   color: #232325;
+  text-align: left;
 }
 h3 {
   font-family: "Space Mono", monospace;
   font-weight: 400;
   font-size: ;
   color: #232325;
+  text-align: left;
 }
 
 p {
@@ -28,6 +32,7 @@ p {
   font-weight: 400;
   font-size: ;
   color: #232325;
+  text-align: left;
 }
 
 ul {
