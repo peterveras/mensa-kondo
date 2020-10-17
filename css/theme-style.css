@@ -34,11 +34,11 @@
 /* Left Arrow Icon */
 
 .carousel-control-prev-icon {
-  background-image: url(../img/icons/left-chevron.png);
+  background-image: url(../img/icons/left-chevron.svg);
 }
 /* Right Arrow Icon */
 .carousel-control-next-icon {
-  background-image: url(../img/icons/right-chevron.png);
+  background-image: url(../img/icons/right-chevron.svg);
 }
 
 .carousel-control-next-icon,
@@ -236,7 +236,7 @@ a:hover {
 }
 
 .card:hover {
-  box-shadow: 15px 15px 0px #000000;
+  box-shadow: 20px 25px 0px #ffffff;
   background-color: rgb(255, 255, 255);
   transform: translateY(-8px);
   border-color: transparent;
