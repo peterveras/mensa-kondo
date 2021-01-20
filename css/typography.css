@@ -1,12 +1,11 @@
 .body {
-  font-family: "Space Mono", monospace;
-  font-size: 16px;
+  font-family: "Thasadith", sans-serif;
   line-height: 20px;
   text-align: left;
 }
 
 h1 {
-  font-family: "Space Mono", monospace;
+  font-family: "Thasadith", sans-serif;
   font-weight: 700;
   font-size: ;
   color: #232325;
@@ -14,14 +13,14 @@ h1 {
 }
 
 h2 {
-  font-family: "Space Mono", monospace;
-  font-weight: 400;
+  font-family: "Thasadith", sans-serif;
+  font-weight: 700;
   font-size: ;
   color: #232325;
   text-align: left;
 }
 h3 {
-  font-family: "Space Mono", monospace;
+  font-family: "Thasadith", sans-serif;
   font-weight: 400;
   font-size: ;
   color: #232325;
@@ -29,7 +28,7 @@ h3 {
 }
 
 p {
-  font-family: "Space Mono", monospace;
+  font-family: "Thasadith", sans-serif;
   font-weight: 400;
   font-size: ;
   color: #232325;
